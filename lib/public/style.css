@@ -1,0 +1,381 @@
+body {
+    background-color: #F5F5F1;
+    margin: 0px;
+}
+
+.headers {
+    height: 80px;
+    border-bottom: 1px solid #E1E3DF;
+    background: #FFFFFF;
+}
+
+.headers-inner {
+    width: 980px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.col-xs-12 {
+    float: left;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+}
+
+.etsy-logo {
+    float: left;
+    width: 75px;
+    margin-right: 20px;
+    color: #F76400;
+    font-size: 40px;
+    margin-top: 6px;
+}
+
+.search-nav {
+	position: relative;
+    float: left;
+    width: 35%;
+}
+
+.search-inner {
+	margin-top: 16px;
+    width: 100%;
+    height: 34px;
+}
+.search-input {
+    white-space: nowrap;
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+ }
+
+.search-query {
+	border-radius: 3px;
+	width: 100%;
+    top: 50%;
+    background: #f9f9f8;
+    padding: 6px 10px;
+    margin-left: 0;
+    font-size: 14px;
+}
+
+.button-wrapper {
+	display: table-cell;
+}
+
+.button {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 34px;
+    line-height: 1.4;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #34A8C4;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #FFF;
+}
+
+.account-nav {
+	float: right;
+    margin: 0;
+    padding-left: 0;
+}
+.sell-on-etsy {
+    border: 1px solid transparent;
+    height: auto;
+    margin-top: 23px;
+    display: block;
+    float: left;
+    padding: 8px;
+    line-height: 16px;
+    font-size: 14px;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #0192B5;
+    font-family: Arial,sans-serif;
+    text-align: center;
+}
+
+.register-link {
+    float: left;
+    position: relative;
+    list-style: none;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.register-link a{
+	height: auto;
+    margin-top: 23px;
+    margin-right: 18px;
+    display: block;
+    float: left;
+    padding: 8px;
+    line-height: 16px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #0192B5;
+    font-family: Arial,sans-serif;
+    text-align: center;
+}
+
+.sign-in-link {
+    float: left;
+    position: relative;
+    list-style: none;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-in-link a{
+	height: auto;
+    margin-top: 23px;
+    margin-right: 18px;
+    display: block;
+    float: left;
+    padding: 8px;
+    line-height: 16px;
+    font-size: 14px;
+    border: 1px solid;
+    text-decoration: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #0192B5;
+    font-family: Arial,sans-serif;
+    text-align: center;
+
+}
+
+.cart {    
+	float: left;
+    position: relative;
+    list-style: none;
+    border: 0 none;
+    margin-top: 15px;
+}
+
+.cart::before {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0px;
+    bottom: 0px;
+    background-color: #eee;
+    width: 1px;
+}
+
+.cart a{
+	float: left;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    padding: 0 13px;
+    margin: 0;
+    color: #0192B5;
+    text-decoration: none;
+}
+
+.cart-icon img{
+    display: block;
+    margin: 0 auto;
+    float: none;
+    height: 32px;
+    min-width: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.cart-text {
+    display: block;
+    clear: left;
+    white-space: nowrap;
+    color: #888;
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+.cnav-headers {
+	margin: 0 auto;
+	min-width: 1000px;
+    height: 43px;
+    margin: 0 -10px;
+    background-color: #FFF;
+    border-bottom: 1px solid #E1E3DF;
+    border-bottom: 0 solid rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1),0 0 0 1px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 49;
+}
+
+.cnav-headers-inner {
+	width: 1000px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.catnav-primary {
+	float: left;
+	margin-left: -3px;
+    padding-top: 2px;
+    z-index: 0;
+    display: block;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.pl-xs-0 {
+    padding-left: 0px;
+    list-style-position: outside;
+    box-sizing: border-box;
+    display: block;
+    list-style-type: disc;
+    margin: 0px;
+}
+
+.clothing-accessories {
+	display: inline-block;
+    margin-right: 12px;
+}
+.clothing-accessories a{
+	cursor: pointer;    
+	line-height: 38px;
+    text-decoration: none;
+    padding: 0 3px;
+    color: #777;
+    font-family: Arial,sans-serif;
+}
+
+.jewelery {
+	display: inline-block;
+    margin-right: 12px;
+}
+
+.jewelery a{
+	cursor: pointer;    
+	line-height: 38px;
+    text-decoration: none;
+    padding: 0 3px;
+    color: #777;
+    font-family: Arial,sans-serif;	
+}
+
+.craft-supplies {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.craft-supplies a{
+	cursor: pointer;    
+	line-height: 38px;
+    text-decoration: none;
+    padding: 0 3px;
+    color: #777;
+    font-family: Arial,sans-serif;
+}
+
+.weddings {
+	display: inline-block;
+    margin-right: 12px;
+}
+
+.weddings a{
+	cursor: pointer;    
+	line-height: 38px;
+    text-decoration: none;
+    padding: 0 3px;
+    color: #777;
+    font-family: Arial,sans-serif;	
+}
+
+.entertainment {
+	display: inline-block;
+    margin-right: 12px;
+}
+
+.entertainment a{
+	cursor: pointer;    
+	line-height: 38px;
+    text-decoration: none;
+    padding: 0 3px;
+    color: #777;
+    font-family: Arial,sans-serif;	
+}
+
+.home-living {
+	display: inline-block;
+    margin-right: 12px;	
+}
+
+.home-living a{
+	cursor: pointer;    
+	line-height: 38px;
+    text-decoration: none;
+    padding: 0 3px;
+    color: #777;
+    font-family: Arial,sans-serif;		
+}
+
+.kinds-baby {
+	display: inline-block;
+    margin-right: 12px;		
+}    
+
+.kinds-baby a{
+	cursor: pointer;    
+	line-height: 38px;
+    text-decoration: none;
+    padding: 0 3px;
+    color: #777;
+    font-family: Arial,sans-serif;	
+}
+
+.vintage {
+	display: inline-block;
+    margin-right: 12px;			
+}
+
+.vintage a{
+	cursor: pointer;    
+	line-height: 38px;
+    text-decoration: none;
+    padding: 0 3px;
+    color: #777;
+    font-family: Arial,sans-serif;	
+}
+
+.content {
+    max-width: none;
+}
+
+.content-inner {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.col-group {
+  float: none;
+  position: relative;
+}
+
+.show-results {
+  padding-bottom: 9px;
+  font-size: 13px
+}
+
+.side-menu {
+  width: 25%;
+}
+

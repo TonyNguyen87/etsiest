@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>search-results -Etsy</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="headers">
+    <header class="headers-inner">
+      <div class="col-xs-12">
+        <div class="etsy-logo">
+          <a>Etsy</a>
+        </div>
+        <form class="search-nav">
+        <div class="search-inner">
+          <div class="search-input">
+            <input class="search-query" type="text" placeholder="Search for items or shops" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" aria-label="Search for items or shops">
+          </div>
+          <div class="button-wrapper">
+            <button class="button" type="submit">
+              Search
+            </button>
+          </div>
+        </form>
+        </div>
+        <ul class="account-nav">
+          <li class="sell-on-etsy"><a>Sell on Etsy</a></li>
+          <li class="register-link"><a>Register</a></li>
+          <li class="sign-in-link"><a>Sign in</a></li>
+          <li class="cart">
+            <!-- <div class="before"></div>   -->
+              <a>
+                <span class="cart-icon">
+                  <img src="http://images.designtrends.com/wp-content/uploads/2015/11/27122749/Shopping-Cart-Icons42.jpg" height="25" width="25"/>
+                </span>
+                <span class="cart-text">
+                  Cart
+                </span>
+              </a>
+          </li>
+        </ul>
+      </divx>
+    </header>
+  </div>
+  <div class="cnav-headers">
+    <div class="cnav-headers-inner">
+      <nav class="catnav-primary">
+        <ul class="pl-xs-0">
+          <li class="clothing-accessories">            
+            <a class="text-gray" href="#">Clothing &amp; Accessories</a></li>
+          <li class="jewelery">
+            <a class="text-gray" href="#">Jewelry</a></li>
+          <li class="craft-supplies">
+            <a class="text-gray" href="#">Craft Supplies &amp; Tools</a></li>
+          <li class="weddings">
+            <a class="text-gray" href="#">Weddings</a></li>
+          <li class="entertainment">
+            <a class="text-gray" href="#">Entertainment</a></li>
+          <li class="home-living">
+            <a class="text-gray" href="#">Home &amp; Living</a></li>
+          <li class="kinds-baby">
+            <a class="text-gray" href="#">Kids &amp; Baby</a></li>
+          <li class="vintage">
+            <a class="text-gray" href="#">Vintage</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content-inner">
+      <div class="col-group">
+        <div class="side-menu">
+          <div class="show-results"><a>Show Results for</a></div>
+        </div>
+        <ul class="search_results">
+          <% results.each do |item| %>
+            <% binding.pry %>
+            <li class="etsy-item">
+              <%= item["title"] %> <% item["description"] %>
+            </li>
+          <%end%>
+        </ul>
+      </div>
+  </div>
+</body>
+</html>
