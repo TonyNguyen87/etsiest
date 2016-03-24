@@ -12,7 +12,7 @@
         <div class="etsy-logo">
           <a>Etsy</a>
         </div>
-        <form class="search-nav">
+        <form class="search-nav" action="http://localhost:4567/search">
         <div class="search-inner">
           <div class="search-input">
             <input class="search-query" type="text" placeholder="Search for items or shops" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" aria-label="Search for items or shops">
@@ -73,15 +73,26 @@
         <div class="side-menu">
           <div class="show-results"><a>Show Results for</a></div>
         </div>
-        <ul class="search_results">
+        <div class="search_results">
           <% results.each do |item| %>
-            <% binding.pry %>
-            <li class="etsy-item">
-              <%= item["title"] %> <% item["description"] %>
-            </li>
+            <div class="etsy-item">
+              <div class="item-card">
+                <img src="<%= item["Images"][0]["url_170x135"]%>"> 
+                  <div class="card-meta">
+                    <div class= "card-title-row">
+                      <div class="item-title"><%= item["title"] %> </div>
+                    <div class="card-shop-row">
+                      <div class="item-price"><%= item["price"] %> </div>
+                      <div class="item-shop"><%= item["Shop"]["shop_name"] %></div> 
+                    </div>
+                  </div>
+                </div>     
+              </div>
+            </div>
           <%end%>
         </ul>
       </div>
   </div>
 </body>
 </html>
+
