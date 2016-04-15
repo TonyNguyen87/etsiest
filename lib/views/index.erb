@@ -71,14 +71,41 @@
     <div class="content-inner">
       <div class="col-group">
         <div class="side-menu">
-          <div class="show-results"><a>Show Results for</a></div>
-        </div>
-        <div class="search_results">
+          <div class="show-results"><a>Show Results for:</a></div>
+            <div class="panel">
+              <div class="panel-inner">
+                <div class="clear">
+                  <ul class="list-unstyled">
+                    <li class="categories"><a>All categories</a>
+                      <li class="item1"><a>Jewlery</a></li>
+                      <li class="item2"><a>Home & Living</a></li>
+                      <li class="item3"><a>Art & Collectibles</a></li>
+                      <li class="item4"><a>Bath & Beauty</a></li>
+                      <li class="item5"><a>Clothing</a></li>
+                      <li class="item6"><a>Craft Supplies & Tools</a></li>
+                      <li class="item7"><a>Paper and Party Supplies</a></li>
+                      <li class="item8"><a>Weddings</a></li>
+                      <li class="item9"><a>Accessories</a></li>
+                      <li class="item10"><a>Bags & Purses</a></li>
+                      <li class="item11"><a>Books, Movies & Music</a></li>
+                      <li class="item12"><a>Electronics & Accessories</a></li>
+                      <li class="item13"><a>Shoes</a></li>
+                      <li class="item14"><a>Toys & Games</a></li>
+                      <li class="item15"><a>Pet Supplies</a></li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="content-item">
+         <div class="search-results"><a>Top categories for:</a></div>
           <% results.each do |item| %>
             <div class="etsy-item">
               <div class="item-card">
-                <img src="<%= item["Images"][0]["url_170x135"]%>"> 
                   <div class="card-meta">
+                    <img src="<%= item["Images"][0]["url_170x135"]%>"> 
                     <div class= "card-title-row">
                       <div class="item-title"><%= item["title"] %> </div>
                     <div class="card-shop-row">

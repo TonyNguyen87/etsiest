@@ -368,14 +368,225 @@ body {
 .col-group {
   float: none;
   position: relative;
-}
-
-.show-results {
-  padding-bottom: 9px;
-  font-size: 13px
+  margin-top: 30px;
 }
 
 .side-menu {
+  float: left;
   width: 25%;
 }
+
+.show-results {
+  padding-bottom: 16px;
+  font-size: 13px;
+  color: #444;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+}
+
+.panel {
+  border-radius: 3px;
+  background-color: #FFF;
+  border: 1px solid #E1E3DF;
+  border-bottom-color: #CBCCC9;
+  margin: 0 0 12px;
+  margin-bottom: 24px;
+  padding: 12px;
+}
+
+.panel-inner {
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 4px;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+.categories {
+  padding-bottom: 6px;
+  font-size: 13px;
+  color: #444;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+}
+
+.item1 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item2 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item3 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item4 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item5 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item6 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item7 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item8 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item9 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item10 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item11 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item12 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item13 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item14 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.item15 {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  color: #0192B5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.content-item {
+  width: 75%;
+  float: left;
+}
+
+.search-results {
+  font-weight: bold;
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+
+.etsy-item {
+    margin-right: 0;
+    width: 33.33%;
+    padding-bottom: 9px;
+    display: inline-block;
+    vertical-align: top; 
+    padding: 9px;
+}
+
+.card-meta {
+    border-radius: 3px;
+    background-color: #FFF;
+    border: 1px solid #E1E3DF;
+    border-bottom-color: #CBCCC9;
+    position: relative;
+}
+
+.card-title-row {
+    color: #444;
+    font-size: 12px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card-shop-row {
+    color: #444;
+    font-size: 12px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.item-title {
+    color: #444;
+    font-size: 12px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+}
+
+
+
 

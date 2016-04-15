@@ -6,6 +6,8 @@ require "json"
 
 Etsy.api_key = ENV["ETSY_KEY"]
 # j1ecit4cj6k6qmxih2c3rqcp
+#ETSY_KEY=j1ecit4cj6k6qmxih2c3rqcp bundle exec ruby lib/etsiest.rb
+
 
 
 module Etsiest
@@ -25,7 +27,8 @@ end
 
 
 
-
+ 
+  #          # <!-- <% binding.pry %> -->
 # binding.pry
 		## localhost:4567/search?q=whiskey
 			 	#binding.pry  #response.code, response.body, response.class, response.methods, JSON.parse(response.body), response.to_hash
